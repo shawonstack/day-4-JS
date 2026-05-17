@@ -94,3 +94,30 @@ if (season1 == 'january') {
     console.log('undefend');
   }
 }
+// task7
+let username = 'abdul';
+let password = 1234;
+if (username == 'abdul' && password == 1234) {
+  console.log('login successful');
+} else if (username == 'abdul' && password == 2345) {
+  console.log('password wrong. Enter RIght one');
+} else if (username == 'motin' && password == 1234) {
+  console.log('incorrect username');
+} else {
+  console.log('invalid credintails');
+}
+// task8
+let command = 'start';
+switch (command) {
+  case 'start':
+    console.log('command start');
+    break;
+  case 'pause':
+    console.log('command oaused');
+    break;
+  case 'stop':
+    console.log('command stopped');
+    break;
+  default:
+    console.log('command not valid');
+}

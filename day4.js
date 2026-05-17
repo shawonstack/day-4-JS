@@ -1,3 +1,5 @@
+// const { use } = require('react');
+
 const age = 12;
 if (age >= 18) {
   console.log('adult');
@@ -47,4 +49,44 @@ if (totalShoppingTk >= 5000) {
   console.log('5% discount');
 } else {
   console.log('No discount available in this price');
+}
+
+// from releted issue
+let username = 'shason';
+if (username === '') {
+  console.log('No username applied');
+} else if (username == 'shawon') {
+  console.log('username applied');
+} else {
+  console.log('incorrect username!!');
+}
+//  swith case
+let day = 2;
+switch (day) {
+  case 1:
+    console.log('satrday');
+    break;
+
+  case 2:
+    console.log('sunday');
+    break;
+
+  default:
+    console.log('invalid day');
+}
+
+// user role system
+let user = 'admin';
+switch (user) {
+  case 'admin':
+    console.log('full access');
+    break;
+  case 'moderetor':
+    console.log('can editor');
+    break;
+  case 'visitor':
+    console.log('no one will allow the database');
+    break;
+  default:
+    console.log('anyone can visit');
 }

@@ -121,3 +121,25 @@ switch (command) {
   default:
     console.log('command not valid');
 }
+//task9
+let user = {
+  name: 'shaon',
+  age: 22,
+  email: 'shawon@gmail.com',
+};
+if (user.name && user.age && user.email) {
+  console.log('all data exicts');
+} else {
+  console.log('data missing');
+}
+
+// age >= 18 && hasID? 'Enter', age >= 18 && !hasID? 'Need ID', else 'Too young' — implement করো
+let age = 18;
+let hasID = true;
+if (age >= 18 && hasID == true) {
+  console.log('Enter');
+} else if (age >= 18 && !hasID) {
+  console.log('need ID');
+} else {
+  console.log('too young');
+}

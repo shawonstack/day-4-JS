@@ -90,3 +90,20 @@ switch (user) {
   default:
     console.log('anyone can visit');
 }
+
+//nested conition-- mean uisng an if inside in another if conition
+let age2 = 20;
+let isStudent = true;
+if (age2 >= 18) {
+  if (isStudent == true) {
+    console.log('he is a pure intermidiat stdent');
+  }
+}
+
+let fruit = 'apple';
+let amdami = 'usa';
+if (fruit == 'apple') {
+  if (amdami == 'usa') {
+    console.log('good apple');
+  }
+}

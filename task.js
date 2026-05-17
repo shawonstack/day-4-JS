@@ -58,3 +58,39 @@ function market(user) {
   }
 }
 market('shawon');
+//task 5
+// for (let num = 1; num <= 100; num++) {
+//   if (num % 3 == 0 && num % 5 == 0) {
+//     console.log('FizBuzz');
+//   } else if (num % 3 == 0) {
+//     console.log('fizz');
+//   } else if (num % 5 == 0) {
+//     console.log('Buzz');
+//   } else {
+//     console.log(num);
+//   }
+// }
+//task6 nested
+let season = 'january';
+let temp = 30;
+if (season) {
+  if (temp == 30) {
+    console.log('sumemr');
+  } else if (temp == 20) {
+    console.log('winter');
+  } else {
+    console.log('not defined');
+  }
+}
+
+let season1 = 'january';
+let temp1 = 20;
+if (season1 == 'january') {
+  if (temp >= 18) {
+    console.log('winter season');
+  } else if (temp >= 30) {
+    console.log('sumemr season');
+  } else {
+    console.log('undefend');
+  }
+}

@@ -40,3 +40,21 @@ switch (day) {
   default:
     console.log('no date is mentioned');
 }
+
+let name = 'shawn';
+switch (name) {
+  case 'shawon':
+    console.log('accept');
+  case 'shawn':
+    console.log('not accept');
+}
+
+function market(user) {
+  if (!user || user.balance === undefined) {
+    console.log('invalid user');
+    return;
+  } else {
+    console.log('not shopping');
+  }
+}
+market('shawon');

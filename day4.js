@@ -107,3 +107,46 @@ if (fruit == 'apple') {
     console.log('good apple');
   }
 }
+
+let money = 500;
+let ticket = true;
+
+if (money >= 300) {
+  if (ticket) {
+    console.log('You can enter');
+  } else {
+    console.log('Buy ticket first');
+  }
+} else {
+  console.log('Not enough money');
+}
+
+// gaurd condition
+let islogin = true;
+if (!islogin) {
+  console.log('please login');
+  return;
+}
+console.log('show dashboard');
+
+function productUser(user) {
+  if (!user) {
+    console.log('login first');
+    return;
+  }
+  if (user.balance > 500) {
+    console.log('not enough balance');
+    return;
+  }
+  console.log('purcess success');
+}
+productUser(false);
+
+function watchMovie(age) {
+  if (age < 18) {
+    console.log('not allowed');
+    return;
+  }
+  console.log('welcome! You can watch movie');
+}
+watchMovie(23);

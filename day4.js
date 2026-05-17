@@ -150,3 +150,11 @@ function watchMovie(age) {
   console.log('welcome! You can watch movie');
 }
 watchMovie(23);
+//truthy and falsy checker
+let products = [];
+
+if (products.length) {
+  console.log('Has products');
+} else {
+  console.log('No products');
+}

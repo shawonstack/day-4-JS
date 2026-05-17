@@ -143,3 +143,17 @@ if (age >= 18 && hasID == true) {
 } else {
   console.log('too young');
 }
+
+// একটি BMI calculator বানাও: BMI বের করো, তারপর category print করো (Underweight/Normal/Overweight/Obese)
+let weight = 61;
+let height = 1.77;
+let bmi = weight / (height * height);
+if (bmi > 1 && bmi <= 18.5) {
+  console.log('Underweight');
+} else if (bmi >= 18.6 && bmi <= 24.9) {
+  console.log('Normal');
+} else if (bmi >= 25 && bmi <= 29.9) {
+  console.log('overheight');
+} else {
+  console.log('Obese');
+}
